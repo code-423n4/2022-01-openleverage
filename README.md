@@ -64,8 +64,8 @@ Under "SPONSORS ADD INFO HERE" heading below, include the following:
 - Join [C4 Discord](https://discord.gg/code4rena) to register
 - Submit findings [using the C4 form](https://code4rena.com/contests/2022-01-openleverage-contest/submit)
 - [Read our guidelines for more details](https://docs.code4rena.com/roles/wardens)
-- Starts January 13, 2022 00:00 UTC
-- Ends January 19, 2022 23:59 UTC
+- Starts January 27, 2022 00:00 UTC
+- Ends February 2, 2022 23:59 UTC
 
 This repo will be made public before the start of the contest. (C4 delete this line when made public)
 
