@@ -9,45 +9,6 @@
 
 This repo will be made public before the start of the contest. (C4 delete this line when made public)
 
-# Contracts
-- BscDexAggregatorV1.sol (95 lines)
-- UniV2ClassDex.sol (223 lines)
-  - calls external contract Dexes on BSC
-- EthDexAggregatorV1.sol (152 lines)
-- UniV2Dex.sol (219 lines)
-  - calls external contract UniswapV2Pair
-- UniV3Dex.sol (192 lines)
-  - calls external contract UniswapV3Pair
-- DexAggregatorDelegator.sol (23 lines)
-- DexAggregatorInterface.sol (16 lines)
-- FarmingPools.sol (138 lines)
-- GovernorAlpha.sol (220 lines)
-- OLEToken.sol (standard ERC20 with mint and burn) (65 lines)
-- Timelock.sol (92 lines)
-- LPool.sol (554 lines)
-- LPoolDelegator.sol (42 lines)
-- LPoolDepositor.sol (25 lines)
-- LPoolInterface.sol (77 lines)
-- Adminable.sol (33 lines)
-- AirDrop.sol (85 lines)
-- ControllerDelegator.sol (32 lines)
-- ControllerInterface.sol (85 lines)
-- ControllerV1.sol (354 lines)
-- DelegateInterface.sol (4 lines)
-- DelegatorInterface.sol (41 lines)
-- IWETH.sol (5 lines)
-- OLETokenLock.sol (67 lines)
-- OpenLevDelegator.sol (31 lines)
-- OpenLevInterface.sol (116 lines)
-- OpenLevV1.sol (396 lines)
-- OpenLevV1Lib.sol (270 lines)
-- Reserve.sol (24 lines)
-- Types.sol (97 lines)
-- XOLE.sol (354 lines)
-- XOLEDelegator.sol (30 lines)
-- XOLEInterface.sol (95 lines)
-​
-To view history of the codes visit *https://github.com/OpenLeverageDev/openleverage-contracts*
 # Introduction of OpenLeverage
 OpenLeverage is a permissionless lending margin trading protocol that enables traders or other applications to be long or short on any trading pair on DEXs efficiently and securely. 
 Key features:
@@ -57,6 +18,7 @@ Key features:
 - OnDemand Oracle uses TWAP prices provided by Uniswap to detect price manipulation and force price updates to make it valid for trading and liquidation.
 - LToken, is an interest rate-bearing token for each lending pool, allowing third-parity to incentivize their community to provide liquidity into the lending pools into support margin trading for their token pairs.
 - OLE Token, the protocol native token, mint by protocol usage, and stake to get rewards and protocol privileges.
+
 ## Demo Video
 
 ## Contracts Overview
@@ -132,7 +94,47 @@ For more details visit *[OpenLeverage Documentation](https://docs.openleverage.f
 - All funds are expected to be secure through the all contracts.
 - Token with tax and rewards should accounted correctly and share with all holder accordingly.
 - The whole margin trade process should effectively resistant to flash loan attacks by using TWAP.
-​
+
+# Contracts
+- BscDexAggregatorV1.sol (95 lines)
+- UniV2ClassDex.sol (223 lines)
+  - calls external contract Dexes on BSC
+- EthDexAggregatorV1.sol (152 lines)
+- UniV2Dex.sol (219 lines)
+  - calls external contract UniswapV2Pair
+- UniV3Dex.sol (192 lines)
+  - calls external contract UniswapV3Pair
+- DexAggregatorDelegator.sol (23 lines)
+- DexAggregatorInterface.sol (16 lines)
+- FarmingPools.sol (138 lines)
+- GovernorAlpha.sol (220 lines)
+- OLEToken.sol (standard ERC20 with mint and burn) (65 lines)
+- Timelock.sol (92 lines)
+- LPool.sol (554 lines)
+- LPoolDelegator.sol (42 lines)
+- LPoolDepositor.sol (25 lines)
+- LPoolInterface.sol (77 lines)
+- Adminable.sol (33 lines)
+- AirDrop.sol (85 lines)
+- ControllerDelegator.sol (32 lines)
+- ControllerInterface.sol (85 lines)
+- ControllerV1.sol (354 lines)
+- DelegateInterface.sol (4 lines)
+- DelegatorInterface.sol (41 lines)
+- IWETH.sol (5 lines)
+- OLETokenLock.sol (67 lines)
+- OpenLevDelegator.sol (31 lines)
+- OpenLevInterface.sol (116 lines)
+- OpenLevV1.sol (396 lines)
+- OpenLevV1Lib.sol (270 lines)
+- Reserve.sol (24 lines)
+- Types.sol (97 lines)
+- XOLE.sol (354 lines)
+- XOLEDelegator.sol (30 lines)
+- XOLEInterface.sol (95 lines)
+
+To view history of the codes visit *https://github.com/OpenLeverageDev/openleverage-contracts*
+
 ## Links
 [Telegram](https://t.me/openleverage)  
 [Discord](http://discord.gg/openleverage)  
