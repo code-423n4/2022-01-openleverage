@@ -20,7 +20,7 @@ Key features:
 - OLE Token, the protocol native token, mint by protocol usage, and stake to get rewards and protocol privileges.
 
 ## Demo Video
-https://youtu.be/XTlLQu9tdt8
+OpenLeverage Mainnet Tutorial: https://youtu.be/XTlLQu9tdt8
 ## Contracts Overview
 The OpenLeverage Protocol comprises Smart Contracts in Solidity for permissionless lending and borrowing assets for leverage trading with DEX integration.
 ​
