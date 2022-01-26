@@ -20,7 +20,7 @@ Key features:
 - OLE Token, the protocol native token, mint by protocol usage, and stake to get rewards and protocol privileges.
 
 ## Demo Video
-
+https://youtu.be/XTlLQu9tdt8
 ## Contracts Overview
 The OpenLeverage Protocol comprises Smart Contracts in Solidity for permissionless lending and borrowing assets for leverage trading with DEX integration.
 ​
@@ -125,15 +125,15 @@ For more details visit *[OpenLeverage Documentation](https://docs.openleverage.f
 - OLETokenLock.sol (67 lines)
 - OpenLevDelegator.sol (31 lines)
 - OpenLevInterface.sol (116 lines)
-- OpenLevV1.sol (396 lines)
-- OpenLevV1Lib.sol (270 lines)
+- OpenLevV1.sol (404 lines)
+- OpenLevV1Lib.sol (261 lines)
 - Reserve.sol (24 lines)
 - Types.sol (97 lines)
 - XOLE.sol (354 lines)
 - XOLEDelegator.sol (30 lines)
 - XOLEInterface.sol (95 lines)
 
-To view history of the codes visit *https://github.com/OpenLeverageDev/openleverage-contracts*
+To view history of the codes visit *https://github.com/OpenLeverageDev/openleverage-contracts/tree/code4rena-contest-submit*
 
 ## Links
 [Telegram](https://t.me/openleverage)  
