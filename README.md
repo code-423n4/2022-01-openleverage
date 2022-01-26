@@ -7,8 +7,6 @@
 - Starts January 27, 2022 00:00 UTC
 - Ends February 2, 2022 23:59 UTC
 
-This repo will be made public before the start of the contest. (C4 delete this line when made public)
-
 # Introduction of OpenLeverage
 OpenLeverage is a permissionless lending margin trading protocol that enables traders or other applications to be long or short on any trading pair on DEXs efficiently and securely. 
 Key features:
