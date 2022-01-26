@@ -29,7 +29,7 @@ The OpenLeverage Protocol comprises Smart Contracts in Solidity for permissionle
 - All margin trades will be executed against the liquidity pool of DEX, like Uniswap.
 - Risk is calculated with real-time price from AMM.
 - Positions are protected with OnDemand Oracle utilizing TWAP from AMM.
-​
+  
 For more details visit *[OpenLeverage Documentation](https://docs.openleverage.finance).*
 ## Token Flows For Trading
                                                           ┌──────┐     ┌──────────────┐
